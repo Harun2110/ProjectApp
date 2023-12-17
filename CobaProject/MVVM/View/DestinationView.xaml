@@ -6,8 +6,10 @@
              xmlns:local="clr-namespace:CobaProject.MVVM.View"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             Background="#000">
+             >
     <Grid>
+        <Image Source="F:\PBO\project\CobaProject\CobaProject\CobaProject\Images\Wisata.jpg">
             
+        </Image>    
     </Grid>
 </UserControl>
