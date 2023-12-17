@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="CobaProject.MVVM.View.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CobaProject.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <TextBlock Text="Home" Foreground="White" FontSize="20" HorizontalAlignment="Left" Margin="0, 0, 0, 20"/>
+        <StackPanel Orientation="Horizontal">
+            <Border Width="400" Height="200">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="#4CC9F0" Offset="0.0"/>
+                        <GradientStop Color="#ADD8E6" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Border.Clip>
+                    <RectangleGeometry RadiusX="10" RadiusY="10" Rect="0, 0, 400, 200"/>
+                </Border.Clip>
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Most Visited Place&#x0a;In Indonesia This Month" Foreground="White" FontSize="18" Margin="20, 10, 0, 0"/>
+                        <TextBlock Text="Let's Explore!!" Foreground="White" FontSize="12" Margin="20, 10, 0, 0"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <Border Width="210" Height="200" CornerRadius="10" Margin="50, 0, 0, 0">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="#FFD554" Offset="0.0"/>
+                        <GradientStop Color="#FC6600" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+        </StackPanel>
+        <StackPanel>
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="Margin" Value="15, 0, 0, 0"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock Text="Best Deal" Foreground="White" FontSize="20" HorizontalAlignment="Left" Margin="0, 10, 0, 20"/>
+            <StackPanel Orientation="Horizontal">
+                <Border Width="120" Height="120" Background="#844EFF" CornerRadius="10" Margin="0"/>
+                <Border Width="120" Height="120" Background="#FDB0C0" CornerRadius="10"/>
+                <Border Width="120" Height="120" Background="#39E75F" CornerRadius="10"/>
+                <Border Width="120" Height="120" Background="#FEFF1E" CornerRadius="10"/>
+                <Border Width="120" Height="120" Background="#FF0606" CornerRadius="10"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</UserControl>
