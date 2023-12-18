@@ -8,9 +8,7 @@
              d:DesignHeight="450" d:DesignWidth="800"
              >
     <Grid>
-        <Image Source="F:\PBO\project\CobaProject\CobaProject\CobaProject\Images\Wisata.jpg" Margin="0,175,226,10"
-               >
-            
-        </Image>    
+        <Image Source="F:\PBO\project\CobaProject\CobaProject\CobaProject\Images\Wisata.jpg" Width="120" Height="120" Margin="10,317,670,13"> </Image>
+        <Image Source="F:\PBO\project\CobaProject\CobaProject\CobaProject\Images\Teras_Kaca_Pantai_Nguluran.width-800..jpg" Width="120" Height="80" Margin="172,337,508,33" RenderTransformOrigin="0.425,1.079"></Image>
     </Grid>
 </UserControl>
